@@ -1,4 +1,10 @@
-# IntelliJ Setup Notes
+# A utility to help facilitate SSH / Tunneling via ec2 instances
+
+Description coming soon
+
+
+
+### IntelliJ Setup Notes
 
 After pulling a dep, you'l have to recreate a symlink `ln -s ./ vendor/src` 
 and add the vendor folder to the `Project Libraries` section in `Libraries & Frameworks` > `Go` > `Go Libraries`.
