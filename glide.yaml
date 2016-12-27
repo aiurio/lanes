@@ -11,3 +11,6 @@ import:
 - package: golang.org/x/crypto
   subpackages:
   - ssh/agent
+- package: gopkg.in/yaml.v2
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0

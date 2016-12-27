@@ -1,5 +1,5 @@
-hash: b23a9ea9299139f622776d841c5f24a085c3bbdce30aa4a8da8b76cff0c06eed
-updated: 2016-12-26T10:21:21.254993306-07:00
+hash: 814dd83e7d596e56a957635e776e029a695ff95ae8c8ce51fc9942a7d099c99a
+updated: 2016-12-26T23:03:34.849766826-07:00
 imports:
 - name: github.com/aws/aws-sdk-go
   version: 1e6377549087b490b693300bce2c5e286dc87740
@@ -29,6 +29,8 @@ imports:
   - private/waiter
   - service/ec2
   - service/sts
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
 - name: github.com/go-ini/ini
   version: 6f66b0e091edb3c7b380f7c4f0f884274d550b67
 - name: github.com/jmespath/go-jmespath
@@ -41,4 +43,6 @@ imports:
   - curve25519
   - ssh
   - ssh/agent
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
 testImports: []
